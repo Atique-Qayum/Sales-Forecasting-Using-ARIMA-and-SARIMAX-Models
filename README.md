@@ -1,3 +1,5 @@
+[View The Project Details (PDF)](https://github.com/Atique-Qayum/project_ARIMA/blob/main/ARIMA_project/ISP%20Report%20PGD%20DSAI%20Final%20(Muhammad%20Atique%20Qayum)%20.pdf)
+
 # Sales Forecasting Using ARIMA and SARIMAX Models
 
 ## Table of Contents
@@ -43,19 +45,15 @@
   - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
   - [Model Development](#model-development)
   - [Model Evaluation](#model-evaluation)
-- [Conclusion](#conclusion)
-  - [The Main Body of the Report / Findings](#the-main-body-of-the-report--findings)
+  - [Conclusion](#conclusion)
+- [The Main Body of the Report / Findings](#the-main-body-of-the-report--findings)
   - [Load and Preprocess the Data](#load-and-preprocess-the-data)
   - [Exploratory Data Analysis (EDA) Findings](#exploratory-data-analysis-eda-findings)
 - [Conclusions and Recommendations](#conclusions-and-recommendations)
   - [Conclusions](#conclusions)
   - [Recommendations](#recommendations)
 - [References](#references)
-- [Appendices](#appendices)
-  - [Raw Data](#raw-data)
-  - [Code Snippets](#code-snippets)
-  - [Detailed Calculations](#detailed-calculations)
-- [Turnitin Report](#turnitin-report)
+
 
 ---
 
@@ -380,7 +378,7 @@ The identified gaps in current research highlight the need for further explorati
 The literature on sales forecasting spans various approaches, from traditional time series models to sophisticated machine learning algorithms. While ARIMA and SARIMAX models are valued for their capability to identify trends and seasonal patterns, machine learning models provide greater flexibility and can manage complex data patterns. Despite these advancements, challenges persist regarding the handling of external factors, unexpected market shifts, and data constraints. This project extends current research by integrating external variables, automating model selection, and comparing different forecasting techniques to deliver actionable insights for businesses.
 
 ---
-# Sales Forecasting Methodology
+# Methodology
 
 ## Data Collection
 
@@ -507,11 +505,8 @@ The performance of the forecasting models was assessed using the following metri
 This methodology outlines a comprehensive approach to sales forecasting using advanced time series models. By employing ARIMA, SARIMAX, and AUTO ARIMA models, the goal is to produce accurate sales forecasts that support strategic decision-making and improve business performance. Systematic data preprocessing, thorough EDA, and rigorous model evaluation ensure the reliability and robustness of the forecasting models, ultimately aiding in the business's success.
 
 
-```markdown
-# Sales Data Analysis and Time Series Forecasting
 
-## Overview
-This report provides an in-depth analysis of sales data spanning three years (2016-2018). The report covers data preprocessing, exploratory data analysis, time series forecasting, and model evaluation. The analysis focuses on trends, top products, top cities, seller performance, and payment preferences, followed by time series modeling to predict future sales.
+# The Main Body of the Report / Findings
 
 ## 1. Load and Preprocess the Data
 The sales data covers a period of three years (2016-2018). The preprocessing steps involve:
@@ -594,14 +589,11 @@ An analysis of yearly sales data reveals the following trends:
 
 ## Conclusion
 The analysis reveals key insights into sales trends, top-performing products, cities, sellers, and consumer payment preferences. The time series forecasting models provide valuable predictions, though with some limitations related to residuals and seasonality.
-```
 
-```markdown
-# Sales Data Analysis and Forecasting (2016-2018)
 
-## Conclusions and Recommendations
+# Conclusions and Recommendations
 
-### Conclusions
+## Conclusions
 
 #### Summary of Key Findings
 The analysis of sales data from 2016 to 2018 reveals several key trends and patterns:
@@ -656,7 +648,7 @@ Future research should investigate the integration of more advanced machine lear
 ### Conclusion
 The analysis offers a detailed overview of sales trends, top products, key cities, and leading sellers from 2016 to 2018. The SARIMAX model successfully captures daily sales patterns, providing precise short-term forecasts. These insights can inform strategic decisions to enhance sales performance and improve inventory management.
 
-### Recommendations
+## Recommendations
 
 #### Actionable Recommendations
 Based on the analysis, we recommend the following:
@@ -700,7 +692,7 @@ The SARIMAX model's capability to address seasonal patterns and include external
 
 Addressing these limitations and implementing the suggested improvements can enhance sales forecasting and strategic planning, leading to better decision-making and increased profitability.
 
-## References
+# References
 
 1. Box, G. E. P., & Jenkins, G. M. (1970). Time Series Analysis: Forecasting and Control. Holden-Day.
 2. Brockwell, P. J., & Davis, R. A. (2016). Introduction to Time Series and Forecasting (3rd ed.). Springer.
