@@ -117,6 +117,8 @@ Sales forecasting is essential for effective business strategy and operational p
 
 Accurate sales forecasts lead to better inventory management, higher customer satisfaction, and improved financial planning. Conversely, inaccurate forecasts can cause overstocking, stockouts, and missed opportunities.
 
+![fig01.](https://github.com/Atique-Qayum/project_ARIMA/blob/main/ARIMA_project/importance_of_forecasting.png)
+
 ### Evolution
 
 Sales forecasting has undergone significant advancements over the years. Initially, businesses used basic methods like moving averages and expert judgment to predict sales, but these approaches often lacked the precision needed to handle complex market dynamics.
@@ -160,6 +162,7 @@ Despite its advantages, sales forecasting comes with several challenges.
 One major challenge is the quality and availability of data. Accurate forecasts depend on historical sales data, which may be incomplete or unreliable. Issues like missing data, inconsistencies, and errors can significantly affect forecast accuracy.
 
 Another challenge is the complexity of forecasting models. Advanced models such as ARIMA and SARIMAX require a deep understanding of statistical methods and time series analysis. Implementing these models can be resource-intensive, necessitating specialized skills and knowledge that may not be readily available within an organization.
+![fig02.](https://github.com/Atique-Qayum/project_ARIMA/blob/main/ARIMA_project/challenges.png)
 
 Additionally, the dynamic nature of markets poses a challenge to forecasting. Economic conditions, consumer preferences, and competitive actions can change rapidly, making it difficult to predict future sales accurately. External factors like political events, natural disasters, or technological advancements can further complicate forecasting efforts.
 
@@ -236,6 +239,8 @@ In the ARIMA model:
 - **p** denotes the number of lagged observations (autoregressive terms),
 - **d** represents the number of differencing operations needed to achieve stationarity,
 - **q** indicates the size of the moving average window (moving average terms).
+![fig03.](https://github.com/Atique-Qayum/project_ARIMA/blob/main/ARIMA_project/ARIMA.png)
+
 
 These parameters are selected based on the data's characteristics and are often determined using ACF (Autocorrelation Function) and PACF (Partial Autocorrelation Function) plots.
 
@@ -246,6 +251,7 @@ ARIMA is versatile in modeling both short-term and long-term dependencies and is
 #### SARIMAX Model
 
 The SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous factors) model enhances the ARIMA framework by incorporating seasonal elements and external variables. This extension makes SARIMAX ideal for data exhibiting seasonal patterns and influenced by external factors, such as marketing activities or economic indicators. It is commonly used in sectors where seasonality is a significant factor, such as retail and tourism.
+![fig04.](https://github.com/Atique-Qayum/project_ARIMA/blob/main/ARIMA_project/SARIMAX.png)
 
 Similarly, the SARIMA (Seasonal AutoRegressive Integrated Moving Average) model builds upon ARIMA to address seasonal variations in data. It introduces additional seasonal parameters—P, D, Q, and S—to capture seasonal patterns. These parameters represent the autoregressive terms (P), differencing (D), and moving average terms (Q) for the seasonal component, with S denoting the length of the seasonal cycle. SARIMA is particularly effective for datasets with pronounced seasonal effects, such as monthly sales data with annual seasonality.
 
@@ -258,6 +264,7 @@ The approach involves testing different parameter combinations (p, d, q) and cho
 #### Machine Learning in Sales Forecasting
 
 Machine learning methods have become increasingly popular in sales forecasting because they can manage large datasets and identify complex patterns. Algorithms like decision trees, random forests, and neural networks excel at uncovering non-linear relationships and interactions between variables. These models are especially valuable when traditional time series approaches struggle to address the data's complexity.
+![fig05.](https://github.com/Atique-Qayum/project_ARIMA/blob/main/ARIMA_project/ML%20is%20Sales.png)
 
 #### Stationarity
 
